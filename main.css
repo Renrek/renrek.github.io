@@ -9,31 +9,9 @@ body {
     font-size: x-large;
 }
 
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 1;
-    }
-}
-
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 992px) {
-    .card-columns {
-        column-count: 3;
-    }
-}
 
 .jumbotron-image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-
-  .skill-catagorie {
-      width: 50%;
   }
