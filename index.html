@@ -10,6 +10,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <style>
         .jumbotron {
             background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
@@ -26,20 +28,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li> 
                     <li class="nav-item">
                         <a class="nav-link" href="#experience">Work Experience</a>
-                    </li>       
+                    </li>    
                     <li class="nav-item">
-                        <a class="nav-link" href="#military">Military Experiance</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#references">References</a>
-                    </li> 
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>   
                     <li class="nav-item">
                         <a class="nav-link" href="mailto:brad.d.johansen@gmail.com" target="_blank">Contact Me</a>
                     </li>                                            
@@ -55,140 +51,185 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-          </div>
+        </div>
+        <div id="skills" class="card mb-3 clone-height">
+            <div class="card-header">
+                PROFESSIONAL SKILLS
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                <div class="w-25">
+                <ul>
+                    <li>
+                        LAMP
+                        <ul>
+                            <li>Linux</li>
+                            <li>Apache2</li>
+                            <li>MySql</li>
+                            <li>PHP</li>
+                        </ul>
+                    </li>
+                    <li>
+                        MERN
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Express.js</li>
+                            <li>React</li>
+                            <li>Node</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Scripting
+                        <ul>
+                            <li>Bash</li>
+                            <li>Powershell</li>
+                            <li>Command</li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="w-25">
+                <ul>
+                    <li>TensorFlow.js</li>
+                    <li>Google G Suite Administration</li>
+                    <li>
+                        OS Administration
+                        <ul>
+                            <li>Linux</li>
+                            <li>Mac</li>
+                            <li>Windows</li>
+                            <li>Chrome OS</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Hypervisor Servers
+                        <ul>
+                            <li>ESXi</li>
+                            <li>Proxmox</li>
+                        </ul>
+                    </li>
+                    <li>
+                        CMS websites
+                        <ul>
+                            <li>Joomla</li>
+                            <li>WordPress</li>
+                            <li>Drupal</li>
+                            <li>Moodle</li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="w-25">
+                    <ul>
+                        <li>Git</li>
+                        <li>DNS</li>
+                        <li>DHCP</li>
+                        <li>Laravel</li>
+                        <li>Sqlite</li>
+                        <li>MySql</li>
+                        <li>PostgreSQL</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>#C</li>
+                        <li>Visual Basic</li>
+                        <li>Bootstrap</li>
+                        <li>Material UI</li>
+                        
+                    </ul>
+                    </div>
+                    <div class="w-25">
+                        <ul>
+                            <li>Systems Analysis</li>
+                            <li>Debian</li>
+                            <li>Voice over IP</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JQuery</li>
+                            <li>MIPS</li>
+                        
+                        </ul>
+                        </div>
+            </div>
+            </div>
+         </div> 
+         <div id="experience" class="card mb-3 clone-height">
+            <div class="card-header">
+                WORK EXPERIENCE
+            </div>
+            <div class="card-body">
+                <h5>Prime Digital Academy</h5>
+                <em>Full Stack Software Development Student</em>
+                <div style="float:right;">June 2021 - October 2021</div>
+                <ul>
+                    <li>Solo project - Flick Finder
+                        <ul>
+                            <li>Flick Finder is a movie selection app for the collectively indecisive. Users can add movies and rate them by the level of anticipation. The app then randomly selects from the top five highest anticipated movies. </li>
+                            <li>Full CRUD application, using JavaScript, React, Express, PostgreSQL, and TensorFlow. The application had user authorization through Passport and made Axios API calls to tmdb.com.</li>
+                        </ul>    
+                    </li>
+                    <li>Team Project: In Progress</li>
+                </ul>
+                <hr>
+                <h5>HACIL Virtual Charter School</h5>
+                <em>IT Director</em>
+                <div style="float:right;">July 2015 – September 2020</div>
+                <ul>
+                    <li>Created and managed an IT department responsible for 400 users.</li>
+                    <li>Developed an internal LAMP application that stored student information and handled the student enrollment workflow.</li>
+                    <li>Maintained the school’s technology infrastructure.</li>
+                    <li>Researched new emerging technologies and conducted a cost-benefit analysis when necessary.</li>
+                </ul>
+                <hr>
+                <h5>Web-N-Tech</h5>
+                <em>Owner and Operator (Self-Employed)</em>
+                <div style="float:right;">July 2009 – December 2013</div>
+                <ul>
+                    <li>Owned and Operated a small business that developed Joomla CMS websites for both individuals and local businesses.</li>
+                    <li>Worked directly with clients, actively listening to understand their needs and create custom solutions.</li>
+                    <li>Provided on-site computer repair and network support for both local businesses and individuals.</li>
+                </ul>
+                <hr>
+                <h5>Northern Lakes Co-op</h5>
+                <em>System/Network Administrator</em>
+                <div style="float:right;">August 2007 – April 2009</div>
+                <ul>
+                    <li>Created and managed a new IT department.</li>
+                    <li>Developed and hosted the LAMP (content management system) public-facing website.</li>
+                    <li>Collaborated with department managers to update their technologies and systems.</li>
+                </ul>
+                <hr>
+                <h5>Wisconsin Army National Guard</h5>
+                <em>Combat Engineer</em>
+                <div style="float:right;">January 1999 – January 2007</div>
+                <ul>
+                    <li>Activated for Operation Iraqi Freedom - O.I.F. March 2003 – April 2004</li>
+                    <li>Contributed to the construction of clinics in Nicaragua.</li>
+                    <li>Assisted in the training of over 2,000 Iraqi Soldiers.</li>
+                    <li>Participated in the construction of a major base and the security of surrounding areas.</li>
+                </ul>
+            </div>
+        </div> 
         <div id="education" class="card mb-3">
             <div class="card-header">
-                Education
+                EDUCATION
             </div>
             <div class="card-body">
                 <h5>Associate's Degree in Information Technology Computer Support</h5>
                 <ul>
                     <li>Wisconsin Indianhead Technical college, Rice Lake, WI</li>
-                    <li>September 2005 - May 2007</li>
+                    <li>Graduated May 2007</li>
+                </ul>
+                <h5>Full-Stack Software Engineering Certification</h5>
+                <ul>
+                    <li>Prime Digital Academy</li>
+                    <li>Graduated October 2021</li>
                 </ul>
             </div>
         </div>
-        <div class="card-columns">
-            <div id="skills" class="card mb-3 clone-height">
-                <div class="card-header">
-                    Skills
-                </div>
-                <div class="card-body">
-                    <h5>Developer</h5>
-                    <ul>
-                        <li>MySql/MariaDB/Sqlite</li>
-                        <li>Laravel & Bootstrap</li>
-                        <li>PHP & Python Programming</li>
-                        <li>HTML & CSS</li>
-                        <li>CMS Websites (Joomla, Wordpress, Drupal, Moodle)</li>
-                    </ul>
-                    <h5>Administrator</h5>
-                    <ul>
-                        <li>Hardware/Software Installation</li>
-                        <li>Systems Analysis</li>
-                        <li>PC Troubleshooting/Upgrading</li>
-                        <li>Linux Server Administration</li>
-                        <li>Google G Suite Administration</li>
-                        <li>LAN Administration</li>
-                        <li>LAMP Administration</li>
-                        <li>Physical/Virtual Server Administration</li>
-                        <li>Shell/Batch Scripting</li>
-                        <li>PC/Mac/Chrome OS Administration</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="experience" class="card mb-3 clone-height">
-                <div class="card-header">
-                    Work Experience
-                </div>
-                <div class="card-body">
-                    <h5>Hacil Charter School</h5>
-                    <ul>
-                        <li>IT Director</li>
-                        <li>July 2015 - September 2020</li>
-                    </ul>
-                    <h5>Web-N-Tech / Self Employed</h5>
-                    <ul>
-                        <li>Web Design and Computer Repair</li>
-                        <li>July 2009 - December 2013</li>
-                    </ul>
-                    <h5>Northern Lakes Co-op</h5>
-                    <ul>
-                        <li>System/Network Administrator</li>
-                        <li>August 2007 - April 2009</li>
-                    </ul>
-                    <h5>Hayward Community Schools</h5>
-                    <ul>
-                        <li>Computer Support Internship</li>
-                        <li>February 2007 - May 2007</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="military" class="card mb-3 clone-height">
-                <div class="card-header">
-                    Military Experience
-                </div>
-                <div class="card-body">
-                    <h5>Wisconsin Army National Guard</h5>
-                    <ul>
-                        <li>January 1999 - January 2007</li>
-                        <li>Active Duty - Operation Iraqi Freedom March 2003 - April 2004</li>
-                    </ul>
-                    <h5>Locations Served</h5>
-                    <ul>
-                        <li>Nicaragua</li>
-                        <li>Iraq</li>
-                        <li>Kuwait</li>
-                    </ul>
-                    <h5>Special Training</h5>
-                    <ul>
-                        <li>Combat Lifesaver</li>
-                    </ul>
-                    <h5>Military Awards</h5>
-                    <ul>
-                        <li>2 Military Achievement Awards</li>
-                        <li>Overseas Service Bar</li>
-                        <li>Armed Forces Reserve Medal (Mobilized)</li>
-                        <li>National Defense Service Medal</li>
-                    </ul> 
-                </div>
-            </div>
-        </div>
-        <div id="references" class="card mb-3">
-            <div class="card-header">
-                References
-                <a class="btn btn-primary float-right" href="mailto:brad.d.johansen@gmail.com" target="_blank">
-                    Contact Me
-                </a>
-            </div>
-            <div class="card-body">
-                <p class="card-text">I respect my reference's privacy, and I will provide their information on request.</p>
-            </div>
+        
+       
     </div> 
-    <script>
-        (function magic(){
-          var divMeasurements = document.getElementsByClassName('clone-height');
-          var arrayLength = divMeasurements.length;
-          var heights = [];
-
-          for (var i = 0; i < arrayLength; i++) {
-              heights.push(divMeasurements[i].offsetHeight);
-          }
-
-          function longestHeight() {
-            return Math.max(...heights);
-          }
-      
-          var tallest = longestHeight();
-      
-          for (var i = 0; i < divMeasurements.length; i++) {
-              divMeasurements[i].style.height = tallest + "px";
-          }
-
-        })();
-
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
 </body>
 </html>
