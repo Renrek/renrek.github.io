@@ -7,14 +7,65 @@ body {
     background-color: #75816B;
 }
 
-.card-header {
-    font-size: x-large;
-}
-
 .jumbotron {
     border: #212529 solid 1px;
-    background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+section.info {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+section h2 {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+#intro {
+    background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    background-color: #75816B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills {
+    background-color: #212529;
+}
+
+#experience {
+    background-color: whitesmoke;
+}
+
+#about {
+    background-color: whitesmoke;
+}
+
+.card-columns {
+    break-inside: avoid-column;
+}
+
+.demo {
+    margin-top: 3rem;
+}
+.demo h4 {
+    text-align: center;
+}
+
+.demo img {
+    height: 20rem;
+    display: block;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid whitesmoke .5rem;
+}
+
+.demo div {
+    text-align: center;
+}
+
+
