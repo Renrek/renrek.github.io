@@ -1,0 +1,19 @@
+body {
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    /* background-color: #3f577a; */
+    /* background-color: #007900; */
+    background-color: #75816B;
+}
+
+#intro {
+    background-image: url(/static/img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.demo img {
+    height: 20rem;
+    border: solid whitesmoke .5rem;
+}
